@@ -22,12 +22,26 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="app-name">
-      <h1>FORECAST</h1>
+    <div class="nav">
+      <div class="nav-container">
+        <h1>FORECAST</h1>
+
+        <input
+          class="nav-city-input"
+          placeholder="Search"
+          style="display: none;"
+        />
+      </div>
     </div>
 
     <div class="alert alert-danger fade" role="alert">
       Please enter a valid city.
+    </div>
+
+    <div id="overlay">
+      <div class="cv-spinner">
+        <span class="spinner"></span>
+      </div>
     </div>
 
     <div class="search-view">
@@ -52,10 +66,19 @@
       </div>
     </div>
 
-    <div class="detailed-view" style="display: none;">
-      <h1 class="city"></h1>
-      <p class="temperature"></p>
-      <p class="wind-speed"></p>
+    <div class="detailed-view">
+      <div class="information">
+        <div class="text">
+          <h1 class="city"></h1>
+          <p class="clock"></p>
+        </div>
+      </div>
+
+      <div class="content">
+        <img src="assets/images/bg-wave.png" alt="wave bg" />
+
+        <div class="forecast"></div>
+      </div>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -72,6 +95,7 @@
     ></script>
 
     <!-- Optional JavaScript -->
+    <script src="assets/script/moment.js"></script>
     <script src="assets/script/main.js"></script>
   </body>
 </html>
