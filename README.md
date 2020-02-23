@@ -8,7 +8,7 @@ This is a weather dashboard that lets users generate a five day forecast for any
 
 ## User Interface
 
-![](assets/user_interface.png)
+![](assets/images/user_interface.png)
 
 ## Deployed App
 
