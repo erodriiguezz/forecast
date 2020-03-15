@@ -92,7 +92,9 @@ $(document).ready(function() {
       if (time == "12:00:00") {
         var desc = item.weather[0].description;
         var icon =
-          "http://openweathermap.org/img/w/" + item.weather[0].icon + ".png";
+          "http://openweathermap.org/img/wn/" +
+          item.weather[0].icon +
+          "@2x.png";
         var temp = item.main.temp;
         var humidity = item.main.humidity;
 
