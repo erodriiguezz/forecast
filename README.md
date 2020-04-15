@@ -12,4 +12,4 @@ This is a weather dashboard that lets users generate a five day forecast for any
 
 ## Deployed App
 
-You can find the deployed application [here](https://erodrigueztoimil.github.io/weather_app/).
+You can find the deployed application [here](https://erodrigueztoimil.github.io/forecast/).
